@@ -45,13 +45,13 @@ $konten = json_decode($data, true);
     <div class="d-flex justify-content-center">
       <div class="col-md-10 card-container">
         <div class="row justify-content-center">
-          <?php foreach ($konten as $negara) {
+          <?php foreach ($konten as $team) {
           ?>
           <div class="col-md-4 mb-3" style="width: 15rem;">
             <div class="card shadow-sm p-3 mb-5 bg-white rounded mx-auto " >
-              <img src=" <?php echo $negara ['team_badge'] ?>" class="card-img-mid" alt="...">
+              <img src=" <?php echo $team ['team_badge'] ?>" class="card-img-mid" alt="...">
               <div class="card-body">
-                <p class="card-text text-center"> <?php echo $negara ['team_name'] ?></p>
+                <p class="card-text text-center"> <?php echo $team ['team_name'] ?></p>
               </div>
             </div>  
           </div>
