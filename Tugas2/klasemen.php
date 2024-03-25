@@ -24,7 +24,7 @@ $konten = json_decode($data, true);
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="index.php">Premier League</a>
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Premier League</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active text-white" href="klasemen.php">Standings</a>
